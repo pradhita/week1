@@ -1,0 +1,84 @@
+<!DOCKTYPE html>
+<html>
+<head>
+  <title>FORM SIGNUP</title>
+</head>
+
+
+<body>
+  <a href="index.html">HOME</a>
+  <h1>BUAT ACCOUNT BARU</h1>
+  <h3>Sign Up Form</h3>
+
+  <form>
+    <label for="first-name">First Name:</label>
+    <br>
+    <input id="first-name" name="firstName" type="text">
+    <br>
+    <br>
+    <label for="last-name">Last Name:</label>
+    <br>
+    <input id="last-name" name="lastName" type="text">
+  </form>
+
+  <form>
+    <label for="gender">Gender:</label>
+    <br>
+    <input id="male-radio" type="radio" name="gender" value="male">
+    <label for="male-radio">Male</label>
+    <br>
+    <input id="female-radio" type="radio" name="gender" value="female">
+    <label for="female-radio">Female</label>
+    <br>
+    <input id="other-radio" type="radio" name="gender" value="other">
+    <label for=other>Other:</label>
+  </form>
+
+
+  <form>
+    <p>
+      <label for="nationality">Nationality</label>
+      <br>
+      <datalist id="nationality">
+        <select name="altnationality">
+          <option value="indonesia">Indonesia</option>
+          <option value="malaysia">Malaysia</option>
+          <option value="singapore">Singapore</option>
+          <option value="brunei">Brunei</option>
+        </select>
+      </datalist>
+    </p>
+  </form>
+
+
+
+  <form>
+    <label for="languages">Language Spoken:</label>
+    <br>
+    <input id="bahasa Indonesia-checkbox" type="checkbox" name="languages" value="bahasa indonesia">
+    <label for="bahasa indonesia-checkbox">Bahasa Indonesia</label>
+    <br>
+    <input id="english-checkbox" type="checkbox" name="languages" value="english">
+    <label for="english-checkbox">English</label>
+    <br>
+    <input id="other-checbox" type="checkbox" name="languages" value="other">
+    <label for="other-checkbox">Other</label>
+  </form>
+
+
+
+  <form action="welcome.html" method="POST">
+    <label>
+      Bio:
+      <br>
+      <textarea rows="8" cols="40" type="text" name="bio" /></textarea>
+    </label>
+    <br>
+    <input type="submit" value="Sign Up" />
+  </form>
+
+
+
+
+</body>
+</html>
